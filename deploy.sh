@@ -114,7 +114,7 @@ if [ -e "$DEPLOYMENT_TARGET/package.json" ]; then
   cd - > /dev/null
 fi
 
-# 3. Angular prod build
+# 3. Angular prod builds
 if [ -e "$DEPLOYMENT_TARGET/.angular-cli.json" ]; then
   cd "$DEPLOYMENT_TARGET"
   echo "Running $NPM_CMD install --production"
